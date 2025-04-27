@@ -1,0 +1,109 @@
+<html>
+
+<head>
+    <title>Primeiros passos com HTML</title>
+</head>
+
+<body>
+    <h1 id="inicio">Introdução ao HTML</h1>
+    <hr>
+    <ul>
+        <li><a href="#historia-da-web">História da Web</a></li>
+        <li><a href="#clients">O que são Clients?</a></li>
+        <li><a href="#servers">O que são Servers?</a></li>
+        <li><a href="#sobre-linguagem">Sobre Linguagem de Programação</a></li>
+    </ul>
+    <h2 id="historia-da-web">História da Web</h2>
+    <small><a href="#inicio">Voltar</a></small>
+    <h3>Primeiros Computadores</h3>
+    <p>Os primórdios da computação remontam a engenhocas mecânicas, como a Pascaline de Blaise Pascal (1642) e a Stepped
+        Reckoner de Leibniz, que automatizavam operações aritméticas. No século XIX, Charles Babbage projetou – mas não
+        chegou a concluir – a Máquina Analítica, já com noções de programa e memória em cartões perfurados. Na década de
+        1940, surgiram os primeiros computadores eletromecânicos e eletrônicos: o <strong>Zuse Z3 (1941)</strong> e o
+        <strong>Harvard Mark I
+            (1944)</strong> usavam relés; o <strong>Colossus (1943)</strong> e o <strong>ENIAC (1945)</strong>
+        introduziram válvulas de vácuo e cálculo binário em alta
+        velocidade. Com os transistores, na década de 1950, vieram máquinas menores e mais confiáveis, como o UNIVAC I e
+        o IBM 701, lançando o computador comercial e acadêmico que conhecemos hoje.
+    </p>
+    <h3>Surgimento da Internet</h3>
+    <p>A Web surgiu em 1989, quando o cientista britânico <strong>Tim Berners-Lee</strong> criou o primeiro sistema de
+        hipertexto
+        interligado, propondo URL, HTTP e HTML para facilitar o compartilhamento de informações entre laboratórios do
+        CERN. Na década de 1990, navegadores como o Mosaic e o Netscape popularizaram o acesso a páginas estáticas,
+        marcando a era conhecida como Web 1.0. Com o advento de bancos de dados e linguagens de script no servidor,
+        chegamos à Web 2.0, caracterizada pela interatividade, redes sociais e colaboração em tempo real. Hoje, fala-se
+        em Web 3.0 ou “Web semântica”, que busca tornar os conteúdos mais compreensíveis para máquinas por meio de
+        metadados e inteligência artificial, abrindo caminho para aplicações mais personalizadas e descentralizadas.
+    </p>
+    <hr />
+    <h2 id="clients">O que são Clients?</h2>
+    <small><a href="#inicio">Voltar</a></small>
+    <h3>Conceito de Client</h3>
+    <p>Em arquitetura Web, o cliente (ou client) é o software que inicia a comunicação e faz requisições a servidores
+        para obter recursos — geralmente navegadores como Chrome, Firefox ou Safari. Ao digitar uma URL ou clicar em um
+        link, o cliente envia um pedido HTTP ao servidor correspondente, solicitando páginas HTML, imagens, scripts e
+        estilos. Além dos browsers, há também clientes não visuais, como aplicativos móveis ou bots, que consomem APIs
+        REST/GraphQL e processam os dados em segundo plano. O cliente é responsável por renderizar o conteúdo recebido,
+        interpretando HTML, CSS e JavaScript para apresentar interfaces ricas ao usuário.
+    </p>
+    <h3>Falando Sobre Navegadores</h3>
+    <p>Os navegadores interpretam e renderizam o código HTML, CSS e JavaScript de maneiras ligeiramente diferentes,
+        devido às suas engines de layout <mark>(como Blink no Chrome, Gecko no Firefox e WebKit no Safari)</mark> e aos
+        diversos
+        níveis de suporte a APIs e especificações da web. Por isso, ao programar, é fundamental adotar boas práticas de
+        compatibilidade: usar prefixes CSS quando necessário, aplicar feature detection (por exemplo, com Modernizr)
+        para ativar recursos apenas quando suportados e incluir polyfills ou transpilers (como Babel) para garantir que
+        funcionalidades modernas funcionem em navegadores mais antigos. Testar em múltiplos ambientes — desktop, mobile
+        e diferentes versões — assegura uma experiência consistente a todos os usuários e evita comportamentos
+        inesperados que possam comprometer a usabilidade ou a performance do seu projeto.</p>
+    <h3>Aplicações Web x Mobile</h3>
+    <h4>Aplicações Web</h4>
+    <p>Aplicações web são sistemas acessados via navegador, sem instalação prévia, que utilizam tecnologias como HTML,
+        CSS e JavaScript no front-end, e linguagens de servidor <mark>(por exemplo, Node.js, Python, PHP)</mark> para
+        lógica e
+        persistência de dados no back-end. Elas rodam em qualquer dispositivo com um browser compatível, facilitando
+        atualizações instantâneas e distribuição global. Com o uso de frameworks como React, Angular ou Vue e técnicas
+        de Progressive Web Apps (PWA), é possível oferecer experiências quase nativas, incluindo cache offline,
+        notificações push e responsividade a diferentes tamanhos de tela.</p>
+    <h4>Dispositivos Móveis</h4>
+    <p>Aplicações mobile são desenvolvidas especificamente para plataformas como Android e iOS, seja de forma nativa
+        <mark>(Java/Kotlin e Swift/Objective-C)</mark>, seja híbrida <mark>(React Native, Flutter, Ionic)</mark>.
+        Instaladas diretamente na loja
+        de apps, elas têm acesso aprofundado ao hardware do dispositivo — câmera, GPS, sensores biométricos,
+        notificações nativas e armazenamento local — e podem operar totalmente offline com alto desempenho. As
+        atualizações dependem de submissão e aprovação nas lojas, mas oferecem integração mais fluida com o ecossistema
+        do usuário.
+    </p>
+    <h5>Diferenças Principais</h5>
+    <p>Enquanto as web apps priorizam facilidade de acesso e manutenção centralizada, as mobile apps entregam maior
+        desempenho e integração com recursos nativos do dispositivo. Web apps não exigem instalação e são imediatamente
+        atualizadas, mas podem sofrer limitações de performance ou de acesso ao hardware; já as mobile apps requerem
+        instalação via loja, têm ciclo de atualização mais controlado e possibilitam experiências offline completas e
+        uso de APIs exclusivas do sistema operacional. Em resumo, a escolha entre web e mobile depende do equilíbrio
+        desejado entre alcance universal e profundidade de integração com o dispositivo.</p>
+    <hr />
+    <h2 id="servers">O que são Servers?</h2>
+    <small><a href="#inicio">Voltar</a></small>
+    <p>O servidor (ou server) é a máquina — virtual ou física — que armazena, processa e entrega recursos solicitados
+        pelos clientes via protocolos como HTTP e HTTPS. Existem vários tipos de servidores: o servidor web (por
+        exemplo, Apache, Nginx) lida com requisições de arquivos estáticos e encaminha chamadas de rota; o servidor de
+        aplicação executa lógica de negócios <mark>(em Java, Python, Node.js, etc.)</mark>; e o servidor de banco de
+        dados gerencia o
+        armazenamento e a consulta de dados estruturados (MySQL, PostgreSQL, MongoDB). Quando um servidor recebe uma
+        requisição, ele pode retornar diretamente um arquivo estático ou executar um script, gerar HTML dinamicamente,
+        consultar um banco de dados e só então devolver a resposta ao cliente.</p>
+    <hr />
+    <h2 id="sobre-linguagem">Sobre Linguagem de Programação</h2>
+    <small><a href="#inicio">Voltar</a></small>
+    <p>As linguagens de programação Web dividem-se em front-end e back-end. No front-end, usamos HTML para estruturar o
+        conteúdo, CSS para definir estilos visuais e JavaScript para adicionar interatividade, frequentemente apoiados
+        em frameworks como React, Vue ou Angular. Já no back-end, linguagens como PHP, Python, Ruby, Java e JavaScript
+        (Node.js) tratam da lógica de aplicação, comunicação com banco de dados, autenticação e APIs. Cada stack traz
+        vantagens distintas: PHP e Ruby on Rails aceleram o desenvolvimento, Python é elogiado pela clareza e Node.js
+        unifica front-end e back-end em JavaScript, enquanto Java e .NET oferecem robustez e escalabilidade para
+        sistemas corporativos.</p>
+    <hr />
+</body>
+
+</html>
