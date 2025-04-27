@@ -1,6 +1,6 @@
 > 🚀 **Entrega do Desafio – Trilha HTML (Módulo 1)**
 >
-> Este repositório contém a solução do desafio de projeto da trilha “Primeiros Passos com HTML” da [Digital Innovation One](https://digitalinnovationone.com). Nele você vai encontrar um site estático construído com todas as tags estudadas nas aulas práticas, incluindo:
+> Este repositório contém a solução do desafio de projeto da trilha “Primeiros Passos com HTML” da [DIO](https://web.dio.me/). Nele você vai encontrar um site estático construído com todas as tags estudadas nas aulas práticas, incluindo:
 >
 > - Estruturação de conteúdo com `<h1>` a `<h6>`, `<p>`, `<blockquote>`, `<hr>`
 > - Formatação de texto: `<strong>`, `<i>`, `<u>`, `<mark>`, `<small>`, `<sub>`, `<sup>`, `<del>`
