@@ -1,11 +1,12 @@
-> 🚀 **Trilha HTML – Primeiros Passos**  
->  
-> Este repositório reúne todo o material da aula “Primeiros Passos com HTML” da trilha de desenvolvimento web oferecida pela [DIO](https://dio.me). Aqui você encontrará:
-> 
-> - **Exemplos práticos** de tags semânticas, atributos e estrutura básica de um documento HTML5  
-> - **Exercícios** para reforçar conceitos como headings, parágrafos, listas, links e imagens  
-> - **Dicas de boas práticas** de organização de código e acessibilidade  
->  
-> A ideia é que, a partir deste material, você consiga criar suas próprias páginas estáticas, entender como estruturar o conteúdo e estar preparado para avançar para CSS e JavaScript.  
-> 
+> 🚀 **Entrega do Desafio – Trilha HTML (Módulo 1)**
+>
+> Este repositório contém a solução do desafio de projeto da trilha “Primeiros Passos com HTML” da [Digital Innovation One](https://digitalinnovationone.com). Nele você vai encontrar um site estático construído com todas as tags estudadas nas aulas práticas, incluindo:
+>
+> - Estruturação de conteúdo com `<h1>` a `<h6>`, `<p>`, `<blockquote>`, `<hr>`
+> - Formatação de texto: `<strong>`, `<i>`, `<u>`, `<mark>`, `<small>`, `<sub>`, `<sup>`, `<del>`
+> - Listas e links: `<ul>`, `<ol>`, `<li>`, `<a>`
+> - Novas tags exploradas: `<font>`, `<abbr>`
+>
+> O objetivo é consolidar o uso de cada elemento em um único projeto, entender seu comportamento no navegador e reforçar boas práticas de semântica HTML5.
+>
 > ---
